@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class About extends Component {
 
     constructor() {
-        this.state = {}
+        this.state = {};
     };
 
     render() {
