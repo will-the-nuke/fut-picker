@@ -20,7 +20,7 @@ class AllRoutes extends Component {
 
     getRoutes() {
 
-        //map containing page names and there respective components
+        //map containing page names and their respective components
         const pages = {
             home: <Home />,
             about: <About />,
