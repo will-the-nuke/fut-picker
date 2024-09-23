@@ -30,7 +30,7 @@ class Home extends Component {
                                 </td>
                                 <td style={{width: '45%'}}>
                                     <h2 className="alignLeft">
-                                        Get your SPC done easily
+                                        Get your SBC done easily
                                     </h2>
                                     <p className="alignRight">
                                         We offer a free tool which allows you to complete your SBC challenges far, far easier. Just visit our requirements page, input your SBC requirements and have the perfect solution presented to you in no time!
