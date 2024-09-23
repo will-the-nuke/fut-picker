@@ -19,7 +19,7 @@ class SmartImage extends Component {
     render() {
         return (
             <React.Fragment>
-                <img src={this.getSrc()} className={this.state.imageClasses || null} style={this.state.imageStyles || {}} id={this.state.imageId || null} />
+                <img src={this.getSrc()} className={this.state.imageClasses || null} style={this.state.imageStyles || {}} id={this.state.imageId || null} alt='IMAGE' />
             </React.Fragment>
         )
     };
