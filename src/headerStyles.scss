@@ -1,0 +1,41 @@
+div.innerHeaderCell {
+    background-color: #142215;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+    &:hover {
+        background-color: #232924;
+    }
+}
+
+h3.headerCellText {
+    transition-property: transform, color;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    
+    &:hover {
+        transform: scale(1.2);
+        color: #b0cfb8;
+    }
+}
+
+table#headerTable {
+    margin-top: 0;
+    padding-top: 5px;
+    top: 0;
+    position: fixed;
+    background-color: #0c0e0c;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+}

@@ -100,6 +100,11 @@ a {
     color: inherit;
 }
 
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
 .noVerticalSpacing {
     padding-top: 0;
     padding-bottom: 0;
