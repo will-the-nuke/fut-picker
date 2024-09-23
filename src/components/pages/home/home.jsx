@@ -14,8 +14,6 @@ class Home extends Component {
             <React.Fragment>
                 <PageHeader headerContent="Welcome to FUT Picker!" paragraphContent="We've got fun and games" />
 
-                <div className="dividerLine"></div>
-
                 {/*introduction section*/}
                 <div>
                     <table>

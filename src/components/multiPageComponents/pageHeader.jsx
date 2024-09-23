@@ -11,6 +11,8 @@ class PageHeader extends Component {
                 <p className="alignLeft" style={{marginLeft: '10%', marginTop: 0, paddingTop: 0}}>
                     {this.props.paragraphContent}
                 </p>
+
+                <div className="dividerLine"></div>
             </React.Fragment>
         );
     };
