@@ -46,7 +46,7 @@ class Player{
         });
     };
 
-    getcardBackgroundImage(){
+    getCardBackgroundImage(){
         const storage = getStorage();
         getDownloadURL(ref(storage, `cardBackgroundImages/${this.cardType}.png`)).then((url) => {
             return url;
