@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 
 class Requirements extends Component {
 
-    constructor() {
+    constructor(props) {
+        super(props);
         this.state = {};
     };
 
