@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import SmartImage from '../../multiPageComponents/smartImage.jsx';
+import PageHeader from '../../multiPageComponents/pageHeader.jsx';
 
 class Home extends Component {
 
@@ -11,12 +12,7 @@ class Home extends Component {
     render() {
         return (
             <React.Fragment>
-                <h1 className="alignLeft noVerticalSpacing" style={{marginLeft: '5%'}}>
-                    Welcome to FUT Picker!
-                </h1>
-                <p className="alignLeft" style={{marginLeft: '10%', marginTop: 0, paddingTop: 0}}>
-                    We've got fun and games
-                </p>
+                <PageHeader headerContent="Welcome to FUT Picker!" paragraphContent="We've got fun and games" />
 
                 <div className="dividerLine"></div>
 
